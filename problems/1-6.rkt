@@ -31,6 +31,12 @@
 ;;; sqrt test
 (sqrt 9)
 
+;;; low precision on large number
+(sqrt 1000000000000)
+
+;;; low precision on small number
+(sqrt 0.0001)
+
 ;;; Alyssa's new if
 (define (new-if predicate then-clause else-clause)
   (cond (predicate then-clause)
