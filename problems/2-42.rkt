@@ -95,5 +95,4 @@
             (queen-cols (- k 1))))))
   (queen-cols board-size))
 
-
 (queens 8)
